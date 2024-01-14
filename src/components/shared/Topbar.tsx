@@ -15,7 +15,7 @@ const Topbar = () => {
 
   return (
     <section className="topbar">
-      <div className="py-4 px5 flex-between">
+      <div className="py-4 px-5 flex-between">
         <Link to="/" className="flex gap-3 items-center">
           <img
             src="/assets/images/logo.svg"
