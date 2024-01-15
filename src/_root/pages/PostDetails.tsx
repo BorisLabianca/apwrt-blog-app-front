@@ -11,7 +11,7 @@ const PostDetails = () => {
   const { id } = useParams();
   const { data: post, isPending } = useGetPostById(id || "");
 
-  const handleDeletePost = (postId) => {};
+  const handleDeletePost = () => {};
 
   return (
     <div className="post_details-container">
